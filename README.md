@@ -47,3 +47,4 @@ pytest
 либо так как ниже, если виндовс не распознает команды выше
 py -m pip install -r requirements.txt
 py -m pytest
+Автор Мунбаева Алла, группа ББИ2504
