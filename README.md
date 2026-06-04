@@ -33,3 +33,17 @@ __pycache__/ и *.pyc это служебные файлы, которые со�
 .vscode/ настройки вс код.
 
 .pytest_cache/ кэш, который создаётся после запуска тестов.
+
+Установка и запуск
+Чтобы развернуть проект из чистого клона, нужно выполнить следующие команды
+git clone https://github.com/AllaMunbayeva/HW2TP
+cd HW2TP
+
+Затем установить зависимости
+pip install -r requirements.txt
+После запустить тесты
+pytest
+
+либо так как ниже, если виндовс не распознает команды выше
+py -m pip install -r requirements.txt
+py -m pytest
